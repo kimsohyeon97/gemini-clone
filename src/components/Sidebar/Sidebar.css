@@ -1,7 +1,7 @@
 .sidebar {
-  min-height: 100vh;
-  display: inline-flex;
-  flex-direction: column;
+  min-height: 100vh; /* 브라우저 창의 100 view height */
+  display: inline-flex; /* .sidebar는 inline, 자식 요소들은 flex돼서, 자식은 flex-direction이나 justify-content 같은 플렉스 속성으로 정렬 가능 */
+  flex-direction: column; /* 컨테이너 내부의 요소가 위에서 아래로 붙음 */
   justify-content: space-between;
   background-color: #f0f4f9;
   padding: 25px 15px;
